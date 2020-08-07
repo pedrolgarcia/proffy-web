@@ -1,9 +1,15 @@
 import React from "react";
 
+import PageHeader from "../../components/PageHeader";
+
 import "./styles.css";
 
 const TeacherList: React.FC = () => {
-  return <h1>Teacher List</h1>;
+  return (
+    <div id="page-teacher-list" className="container">
+      <PageHeader title="Esses são os proffys disponíveis." />
+    </div>
+  );
 };
 
 export default TeacherList;
